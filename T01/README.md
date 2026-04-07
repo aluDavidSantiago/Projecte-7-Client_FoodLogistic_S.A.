@@ -17,11 +17,11 @@ A continuació es presenten tres empreses reals de serveis informàtics ubicades
 
 L’organigrama següent representa l’estructura interna de la nostra empresa tecnològica. Aquest model organitzatiu està dissenyat per garantir una gestió eficient de projectes, mantenir una alta disponibilitat dels serveis i donar resposta a les necessitats tècniques de FoodLogístic S.A.
 
-./IMG/organigrama.png
+![Organigrama](./IMG/organigrama.png)
 
 ### Codi PlantUML utilitzat
 
-```plantuml
+```
 @startuml
 skinparam style strictuml
 skinparam defaultTextAlignment center
