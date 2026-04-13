@@ -1,6 +1,3 @@
-Aquí tens **tot el contingut del T03 convertit a Markdown**, net, estructurat i sense cap element extra:
-
-***
 
 # T03: Servidor de fitxers
 
@@ -179,14 +176,3 @@ Des del client:
 # Material de suport
 
 *   0224 SOX. Material UD8: AA2 (Moodle de l’assignatura)
-
-***
-
-Si vols, també puc preparar:
-
-*   La plantilla del teu informe final en Markdown
-*   Les taules ja estructurades
-*   Scripts PowerShell completament funcionals
-*   Un exemple d’evidències o esquema de GPO
-
-Només digues què necessites.
