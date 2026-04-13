@@ -102,13 +102,3 @@ El projecte compleix tots els requisits de l’activitat T02:
 *   El flux de treball amb commits és correcte i rastrejable.
 
 La proposta elaborada representa una primera versió funcional i presentable de la futura web corporativa de FoodLogístic S.A., amb base tècnica sòlida i preparada per a ser ampliada.
-
-***
-
-Si vols, ara mateix puc:
-
-*   Revisar visualment la web per verificar coherència estètica.
-*   Preparar el lliurament final en format PDF.
-*   Preparar-te una autoavaluació segons la rúbrica perquè la puguis adjuntar.
-
-Només digues què necessites.
