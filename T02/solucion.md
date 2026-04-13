@@ -1,4 +1,4 @@
-T02: Proposta de pàgina corporativa (FoodLogístic S.A.)
+# T02: Proposta de pàgina corporativa (FoodLogístic S.A.)
 
 ## 1. Descripció del projecte
 
