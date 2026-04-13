@@ -28,13 +28,6 @@ El projecte segueix estrictament l'estructura requerida per GitHub Pages:
        └── /images
              └── FoodLogisticLogo.png
 
-    /T02
-       ├── README.md
-       └── /IMG
-             ├── 1.png
-             ├── 2.png
-             └── 3.png
-
 La carpeta `/docs` és la que GitHub Pages utilitza com a arrel de la web.
 
 ***
