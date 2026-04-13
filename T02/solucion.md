@@ -1,16 +1,26 @@
-T02: Proposta de Pàgina Corporativa (FoodLogístic S.A.)
+T02: Proposta de pàgina corporativa (FoodLogístic S.A.)
 
 ## 1. Descripció del projecte
 
-Aquesta activitat té com a objectiu crear una proposta funcional de la nova pàgina corporativa per a FoodLogístic S.A., utilitzant GitHub Pages com a plataforma de desplegament web.  
-La web proposada mostra un disseny modern, net i visual, adaptat a una empresa del sector logístic alimentari.
+Aquesta activitat té com a objectiu crear una proposta funcional de la nova pàgina corporativa de FoodLogístic S.A., utilitzant GitHub Pages com a entorn de desplegament professional.
 
-El desenvolupament s’ha realitzat únicament amb **HTML i CSS**, complementat amb tipografies de Google Fonts i imatges lliures de copyright procedents de Unsplash.  
-La publicació s’ha fet a través de GitHub Pages, configurant la carpeta `/docs` com a arrel del projecte.
+La web publicada mostra:
+
+*   Disseny modern basat en HTML i CSS
+*   Estructura corporativa clara
+*   Tipografies Poppins i Inter
+*   Navegació interna
+*   Seccions funcionals (Inici, Serveis, Empresa, Contacte)
+*   Imatges lliures de drets d’ús
+*   Integració d’un comptador d’analítica web (StatCounter)
+
+L’objectiu és proporcionar a FoodLogístic S.A. una vista preliminar de com podria ser la seva nova presència digital.
+
+***
 
 ## 2. Estructura del repositori
 
-Estructura real del projecte:
+El projecte segueix estrictament l'estructura requerida per GitHub Pages:
 
     /docs
        ├── index.html
@@ -18,82 +28,94 @@ Estructura real del projecte:
        └── /images
              └── FoodLogisticLogo.png
 
-La carpeta `/docs` és imprescindible perquè GitHub Pages generi la web.  
-Tots els fitxers (HTML, CSS i imatges) es troben ubicats correctament dins d’aquesta carpeta.
+    /T02
+       ├── README.md
+       └── /IMG
+             ├── 1.png
+             ├── 2.png
+             └── 3.png
+
+La carpeta `/docs` és la que GitHub Pages utilitza com a arrel de la web.
+
+***
 
 ## 3. Enllaços del projecte
 
-Repositori utilitzat per desenvolupar la web:  
+Repositori utilitzat per la publicació:  
 <https://github.com/aludavidsantiago/foodlogistic-web>
 
-Pàgina corporativa publicada amb GitHub Pages:  
+Pàgina web corporativa publicada amb GitHub Pages:  
 <https://aludavidsantiago.github.io/foodlogistic-web/>
+
+***
 
 ## 4. Funcionalitats implementades
 
-La proposta de pàgina web inclou:
+*   Pàgina corporativa real, funcional i responsive.
+*   Capçalera amb imatge de fons i superposició.
+*   Menú de navegació amb seccions internes.
+*   Efectes visuals de transició (scroll reveal).
+*   Secció de serveis definida amb targetes.
+*   Secció d’empresa amb imatge relacionada amb el sector logístic.
+*   Formulari de contacte amb validació HTML.
+*   Utilització d'imatges lliures de drets (Unsplash).
+*   Logo corporatiu ubicat a `/docs/images`.
+*   Publicació totalment operativa sota URL pública.
 
-*   Capçalera principal amb imatge de fons i títol corporatiu.
-*   Menú de navegació fix amb enllaços interns.
-*   Secció d’explicació de l’empresa.
-*   Secció de serveis amb disseny responsive.
-*   Secció d’empresa amb imatge relacionada amb un magatzem logístic.
-*   Formulari de contacte bàsic (sense enviament).
-*   Disseny modern basat en Poppins i Inter.
-*   Ús d’imatges lliures procedents de Unsplash.
-*   Adaptació responsive per a dispositius mòbils.
+***
 
-## 5. Captures de pantalla
+## 5. Integració d’analítica: StatCounter
 
-Incloure les captures següents (el professor ho exigeix com a requisit final):
+S’ha integrat un comptador invisible dins de `index.html` just abans de la tancada `</body>`.
 
-*   Captura de la capçalera (Hero).
-*   Captura de la secció Serveis.
-*   Captura de la secció Empresa amb imatge.
-*   Captura del formulari de contacte.
-*   Vista de la web en dispositiu mòbil (opcional però recomanable).
+Aquest comptador permet analitzar:
 
-Les captures s’han d’afegir manualment al README o pujar-se dins la carpeta `/T02`.
+*   Visites rebudes
+*   Rutes de navegació
+*   Sistemes operatius i navegadors
+*   Temps de permanència
+*   Fonts de trànsit
 
-## 6. Integració de StatCounter
+StatCounter ha estat instal·lat correctament i ja registra visites reals.
 
-S’ha integrat un comptador invisible de StatCounter per registrar visites i obtenir dades bàsiques del trànsit.  
-Aquesta eina permet mesurar:
+### 5.1 Captures de les mètriques
 
-*   Nombre de visites.
-*   Sistema operatiu i navegador.
-*   Ubicació aproximada del visitant.
-*   Pàgines vistes i durada de la sessió.
+A continuació s’adjunten captures del panell de StatCounter:
 
-El codi afegit al fitxer `index.html` és el proporcionat per StatCounter:
+**Summary**
 
-    <!-- StatCounter -->
-    <script type="text/javascript">
-    var sc_project = XXXXXXXX;
-    var sc_invisible = 1;
-    var sc_security = "XXXXXXXX";
-    </script>
-    https://www.statcounter.com/counter/counter.js
-    <noscript>
-    <div class="statcounter">
-    https://c.statcounter.com/XXXXXXXX/0/XXXXXXXX/1/
-    </div>
-    </noscript>
+![1](./IMG/3.png)
 
-(És necessari substituir els valors X pels reals que dona StatCounter.)
+**Recent Activity – Visitor Paths**
 
-També s’ha inclòs una captura del panell de control de l’eina per validar-ne el funcionament.
+![2](./IMG/2.png)
 
-## 7. Conclusions
+**Traffic Analysis**
 
-El projecte compleix tots els requisits de la tasca T02:
+![3](./IMG/1.png)
 
-*   Web publicada amb GitHub Pages.
-*   Estructura correcta amb carpeta `/docs`.
-*   Ús exclusiu d’HTML i CSS, tal com es demanava.
-*   Implementació i verificació del comptador StatCounter.
-*   Presentació visual professional i adaptada al sector logístic.
-*   Documentació completa en aquest fitxer README.md.
+Aquestes captures demostren que el comptador està actiu i operatiu.
 
-Aquesta proposta serveix com una primera versió funcional de la identitat digital de FoodLogístic S.A., apta per mostrar al client i per evolucionar en futures iteracions del projecte.
+***
 
+## 6. Conclusions
+
+El projecte compleix tots els requisits de l’activitat T02:
+
+*   La web està plenament operativa amb GitHub Pages.
+*   El repositori segueix l’estructura exigida amb `/docs`.
+*   S’ha desenvolupat i documentat un README complet i detallat.
+*   StatCounter està instal·lat, verificat i capturant dades reals.
+*   El flux de treball amb commits és correcte i rastrejable.
+
+La proposta elaborada representa una primera versió funcional i presentable de la futura web corporativa de FoodLogístic S.A., amb base tècnica sòlida i preparada per a ser ampliada.
+
+***
+
+Si vols, ara mateix puc:
+
+*   Revisar visualment la web per verificar coherència estètica.
+*   Preparar el lliurament final en format PDF.
+*   Preparar-te una autoavaluació segons la rúbrica perquè la puguis adjuntar.
+
+Només digues què necessites.
