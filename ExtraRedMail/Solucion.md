@@ -27,6 +27,8 @@ Se utiliza una máquina virtual con las siguientes características:
     *   NAT
     *   Host-only
 
+<img src="IMG/0.5.png" alt="..." width="7000" height="auto"> 
+
 Esto permite que el servidor tenga salida a Internet y, a la vez, acceso desde el equipo anfitrión.
 
 **Imagen 1:** Configuración general de la máquina virtual en VirtualBox.
@@ -37,18 +39,20 @@ Esto permite que el servidor tenga salida a Internet y, a la vez, acceso desde e
 
 Se define un nombre de host con el formato solicitado para el servidor de correo.
 
-```bash
+```
 sudo hostnamectl set-hostname mx.serveis10.test
 hostname
 ```
 
+<img src="IMG/1.png" alt="..." width="7000" height="auto"> 
+
 El resultado muestra correctamente el hostname configurado:
 
-```text
+```
 mx.serveis10.test
 ```
 
-**Imagen 2:** Configuración y comprobación del hostname.
+**3:** Configuración y comprobación del hostname.
 
 ***
 
@@ -56,20 +60,22 @@ mx.serveis10.test
 
 Se edita el archivo para asegurar la correcta resolución local del nombre del servidor:
 
-```bash
+```
 sudo nano /etc/hosts
 ```
 
 Contenido relevante:
 
-```text
+```
 127.0.0.1   localhost
 127.0.1.1   mx.serveis10.test mx
 ```
 
+<img src="IMG/2.png" alt="..." width="7000" height="auto"> 
+
 Se comprueba que los cambios se han aplicado correctamente.
 
-**Imagen 3:** Edición y verificación del archivo `/etc/hosts`.
+**4:** Edición y verificación del archivo `/etc/hosts`.
 
 ***
 
@@ -77,16 +83,18 @@ Se comprueba que los cambios se han aplicado correctamente.
 
 Se revisa la configuración de red para confirmar que ambas interfaces están activas.
 
-```bash
+```
 ip a
 ```
+
+<img src="IMG/4.png" alt="..." width="7000" height="auto"> 
 
 Se observan:
 
 *   Una IP privada asignada por NAT
 *   Una IP del rango `192.168.56.0/24` para acceso desde el host
 
-**Imagen 4:** Salida del comando `ip a`.
+**:** Salida del comando `ip a`.
 
 ***
 
@@ -96,13 +104,21 @@ Se observan:
 
 Se descarga la versión 1.8.0 de iRedMail desde GitHub y se descomprime.
 
-```bash
+```
 wget https://github.com/iredmail/iRedMail/archive/refs/tags/1.8.0.tar.gz
+```
+
+<img src="IMG/5.png" alt="..." width="7000" height="auto">
+
+```
 tar xzf 1.8.0.tar.gz
 cd iRedMail-1.8.0
 ```
 
-**Imagen 5:** Descarga y descompresión del instalador.
+<img src="IMG/6.png" alt="..." width="7000" height="auto">
+
+
+**:** Descarga y descompresión del instalador.
 
 ***
 
@@ -110,7 +126,9 @@ cd iRedMail-1.8.0
 
 Se lanza el script de instalación:
 
-```bash
+<img src="IMG/7.png" alt="..." width="7000" height="auto">
+
+```
 sudo bash iRedMail.sh
 ```
 
@@ -122,7 +140,16 @@ Durante el asistente se seleccionan las siguientes opciones:
 *   Dominio inicial de correo: `tucat.test`
 *   Administrador del dominio: `postmaster@tucat.test`
 
-**Imagen 6:** Proceso de instalación y selección de opciones principales.
+<img src="IMG/8.png" alt="..." width="7000" height="auto">
+<img src="IMG/9.png" alt="..." width="7000" height="auto">
+<img src="IMG/10.png" alt="..." width="7000" height="auto">
+<img src="IMG/11.png" alt="..." width="7000" height="auto">
+<img src="IMG/12.png" alt="..." width="7000" height="auto">
+<img src="IMG/13.png" alt="..." width="7000" height="auto">
+<img src="IMG/14.png" alt="..." width="7000" height="auto">
+
+
+**:** Proceso de instalación y selección de opciones principales.
 
 ***
 
@@ -135,7 +162,7 @@ Se activan los siguientes componentes:
 *   Fail2ban
 *   Netdata
 
-**Imagen 7:** Selección de componentes adicionales.
+**:** Selección de componentes adicionales.
 
 ***
 
@@ -143,17 +170,20 @@ Se activan los siguientes componentes:
 
 Se aceptan las reglas de firewall propuestas por iRedMail y se reinicia el sistema para aplicar todos los servicios.
 
-**Imagen 8:** Instalación finalizada correctamente.
+**:** Instalación finalizada correctamente.
 
 Tras el reinicio se comprueba que Nginx está activo:
 
-```bash
+```
 sudo systemctl status nginx
 ```
 
+<img src="IMG/20.png" alt="..." width="7000" height="auto">
+
+
 El servicio aparece en estado `active (running)`.
 
-**Imagen 9:** Comprobación del servicio Nginx.
+**:** Comprobación del servicio Nginx.
 
 ***
 
@@ -165,9 +195,13 @@ Se accede al panel de administración mediante el navegador:
 
     https://192.168.56.117/iredadmin
 
+<img src="IMG/21.png" alt="..." width="7000" height="auto">
+
+<img src="IMG/22.png" alt="..." width="7000" height="auto">
+
 Se inicia sesión con el usuario administrador del dominio.
 
-**Imagen 10:** Pantalla de inicio de sesión de iRedAdmin.
+**:** Pantalla de inicio de sesión de iRedAdmin.
 
 ***
 
@@ -175,7 +209,9 @@ Se inicia sesión con el usuario administrador del dominio.
 
 Desde el panel se verifica que el dominio `tucat.test` está creado correctamente y asignado al administrador.
 
-**Imagen 11:** Dominio principal visible en iRedAdmin.
+**:** Dominio principal visible en iRedAdmin.
+
+<img src="IMG/23.png" alt="..." width="7000" height="auto">
 
 ***
 
@@ -187,7 +223,10 @@ En el apartado **Activities** se revisan los registros del sistema, donde se mue
 *   Creación de dominios
 *   Creación y modificación de usuarios
 
-**Imagen 12:** Logs de actividad del administrador.
+<img src="IMG/25.png" alt="..." width="7000" height="auto">
+
+
+**:** Logs de actividad del administrador.
 
 ***
 
@@ -199,9 +238,12 @@ Se crea el usuario:
 
     tucatito10@tucat.test
 
+<img src="IMG/26.png" alt="..." width="7000" height="auto">
+
+
 Desde el menú de usuarios del dominio.
 
-**Imagen 13:** Creación y perfil del usuario.
+**:** Creación y perfil del usuario.
 
 ***
 
@@ -213,9 +255,12 @@ Se accede al webmail desde:
 
     https://192.168.56.117/mail
 
+<img src="IMG/28.png" alt="..." width="7000" height="auto">
+
+
 Al iniciar sesión con el administrador se reciben correos automáticos del sistema.
 
-**Imagen 14:** Bandeja de entrada inicial en Roundcube.
+**:** Bandeja de entrada inicial en Roundcube.
 
 ***
 
@@ -223,9 +268,11 @@ Al iniciar sesión con el administrador se reciben correos automáticos del sist
 
 Se envía un correo desde `postmaster@tucat.test` a `tucatito10@tucat.test`.
 
+<img src="IMG/31.png" alt="..." width="7000" height="auto">
+
 El mensaje se entrega correctamente.
 
-**Imagen 15:** Envío y confirmación del correo interno.
+**:** Envío y confirmación del correo interno.
 
 ***
 
@@ -235,7 +282,10 @@ Se envía un correo desde el servidor a una cuenta de Gmail externa.
 
 El mensaje llega correctamente pero es clasificado como correo no deseado.
 
-**Imagen 16:** Correo recibido en la carpeta de spam de Gmail.
+<img src="IMG/32.png" alt="..." width="7000" height="auto">
+
+
+**:** Correo recibido en la carpeta de spam de Gmail.
 
 ### Motivo
 
@@ -255,11 +305,15 @@ Se crea el dominio:
 
     alumno10.test
 
+<img src="IMG/33.png" alt="..." width="7000" height="auto">
+
 Y el usuario:
 
     alumnito10@alumno10.test
 
-**Imagen 17:** Segundo dominio y usuario creados.
+<img src="IMG/34.png" alt="..." width="7000" height="auto">
+
+**:** Segundo dominio y usuario creados.
 
 ***
 
@@ -273,7 +327,10 @@ Se comprueba el envío de correos entre ambos dominios y funciona correctamente.
 
 Se revisan nuevamente los logs de administración, donde queda registrado todo el proceso de la práctica.
 
-**Imagen 18:** Logs finales del sistema.
+**:** Logs finales del sistema.
+
+<img src="IMG/35.png" alt="..." width="7000" height="auto">
+
 
 ***
 
