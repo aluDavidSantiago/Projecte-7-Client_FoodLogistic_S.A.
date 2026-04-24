@@ -109,8 +109,3 @@ El servidor queda correctamente configurado y preparado para ampliaciones futura
 
 ---
 
-## Estado del proyecto
-
-✅ Práctica finalizada  
-✅ Funcional y documentada  
-✅ Lista para entrega académica
