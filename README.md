@@ -70,4 +70,5 @@ projecte7/
 - [Control de versions: Git](https://github.com/SMX2n/ControlVersions)
 - [Guia GitHub Classroom](https://github.com/SMX2n/guia-github-classroom)
 
-Bona sort! 🚀
+Santiago Hernandez
+Santiago Moreno 
