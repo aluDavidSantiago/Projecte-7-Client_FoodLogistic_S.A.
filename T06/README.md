@@ -4,6 +4,8 @@
 
 Aquesta tasca requereix tenir feta i acabada la **T02**.
 
+<https://aludavidsantiago.github.io/foodlogistic-web/>
+
 ***
 
 ## **Introducció al cas**
