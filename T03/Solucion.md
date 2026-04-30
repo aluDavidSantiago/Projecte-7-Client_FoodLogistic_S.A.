@@ -34,20 +34,14 @@ El objetivo de esta práctica es diseñar e implementar un **servidor de archivo
 
 > El sufijo “10” se utiliza para identificar el entorno de laboratorio y asociarlo al alumno número 10, evitando posibles conflictos con otros dominios.
 
-📸 **Imagen 1**  
-Vista de *Server Manager > Local Server* donde se vea el nombre `FS-DC01`, IP fija y DNS apuntando a sí mismo.
+<img src="IMG/2.png" alt="..." width="7000" height="auto"> 
+
 
 ***
 
 ### 2.2 Creación del dominio
 
 Se instala el rol **Active Directory Domain Services** y se promociona el servidor como controlador de dominio principal, creando un nuevo bosque con el dominio `foodlogistic10.test`.
-
-📸 **Imagen 2**  
-Asistente de promoción a DC mostrando el nombre del dominio.
-
-📸 **Imagen 3**  
-Inicio de sesión como `FOODLOGISTIC10\Administrator`.
 
 ***
 
@@ -65,8 +59,7 @@ Se crea la siguiente estructura:
 
 Esta organización facilita la gestión de usuarios, grupos y políticas de grupo.
 
-📸 **Imagen 4**  
-Active Directory Users and Computers mostrando la estructura de OUs.
+<img src="IMG/6.png" alt="..." width="700" height="auto"> 
 
 ***
 
@@ -80,8 +73,7 @@ Se crean los grupos de seguridad (Global / Security):
 | Transport     | Logística y operaciones    |
 | Direccio      | Documentación confidencial |
 
-📸 **Imagen 5**  
-OU *Groups* con los tres grupos creados.
+<img src="IMG/7.png" alt="..." width="700" height="auto"> 
 
 ***
 
@@ -93,8 +85,8 @@ OU *Groups* con los tres grupos creados.
 | trans1  | Transport     |
 | direc1  | Direccio      |
 
-📸 **Imagen 6**  
-Propiedades de `direc1` mostrando pertenencia al grupo *Direccio*.
+<img src="IMG/8.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
@@ -107,8 +99,8 @@ Se utiliza un disco de datos independiente:
     ├── Operacions
     └── Direccio
 
-📸 **Imagen 7**  
-Explorador mostrando las tres carpetas creadas en el disco de datos.
+<img src="IMG/12.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
@@ -124,8 +116,8 @@ Configuración:
 
 Se deshabilita la herencia y se eliminan permisos innecesarios.
 
-📸 **Imagen 8**  
-Seguridad avanzada de `D:\Public` mostrando solo esos tres grupos.
+<img src="IMG/16.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
@@ -137,8 +129,8 @@ Seguridad avanzada de `D:\Public` mostrando solo esos tres grupos.
 
 > El permiso efectivo final es de solo lectura, ya que SMB es más restrictivo que NTFS.
 
-📸 **Imagen 9**  
-Permisos de compartición mostrando *Everyone – Read*.
+<img src="IMG/17.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
@@ -153,8 +145,8 @@ Configuración:
 *   Permisos SMB:
     *   Transport → Control total
 
-📸 **Imagen 10**  
-Asistente de creación del recurso desde Server Manager con ABE activado.
+<img src="IMG/22.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
@@ -164,8 +156,8 @@ Asistente de creación del recurso desde Server Manager con ABE activado.
 *   SYSTEM → Control total
 *   Transport → Modificar
 
-📸 **Imagen 11**  
-Permisos NTFS limpios aplicados a `D:\Operacions`.
+<img src="IMG/26.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
@@ -177,8 +169,8 @@ Permisos NTFS limpios aplicados a `D:\Operacions`.
 *   SYSTEM → Control total
 *   Direccio → Modificar
 
-📸 **Imagen 12**  
-Seguridad avanzada de `D:\Direccio`.
+<img src="IMG/31.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
@@ -192,8 +184,8 @@ New-SmbShare `
  -FolderEnumerationMode AccessBased
 ```
 
-📸 **Imagen 13**  
-PowerShell mostrando el comando ejecutado correctamente.
+<img src="IMG/32.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
@@ -206,11 +198,9 @@ GPO: `Map_Direccio_Z`
 *   Letra: Z:
 *   Item-level targeting: grupo *Direccio*
 
-📸 **Imagen 14**  
-Drive Map configurado en la GPO.
+<img src="IMG/35.png" alt="..." width="700" height="auto"> 
 
-📸 **Imagen 15**  
-Targeting por grupo Direccio.
+<img src="IMG/37.png" alt="..." width="700" height="auto"> 
 
 ***
 
@@ -223,8 +213,8 @@ En el disco de datos:
 *   Límite por usuario: 500 MB
 *   Denegar espacio al superar el límite
 
-📸 **Imagen 16**  
-Pestaña *Quota* del volumen D:.
+<img src="IMG/41.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
@@ -239,8 +229,12 @@ Mensaje:
 
     Compte! FoodLogístic t'informa que estàs a punt d'esgotar l'espai compartit.
 
-📸 **Imagen 17**  
-Cuota FSRM aplicada a Public.
+<img src="IMG/45.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/46.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/47.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
@@ -251,20 +245,20 @@ Cuota FSRM aplicada a Public.
     *   Ejecutables (.exe, .msi)
     *   Audio y vídeo
 
-📸 **Imagen 18**  
-File Screen activo en `D:\Operacions`.
+<img src="IMG/49png" alt="..." width="700" height="auto"> 
+
 
 ***
 
 ## 9. Verificación desde el cliente
 
-### 9.1 Usuario `admin1`
+### 9.1 Usuario `trans1`
 
-*   Ve Public (solo lectura)
-*   No puede escribir en Public
+*   Ve Direccio (solo lectura)
+*   No puede escribir en Direcci¡o
 
-📸 **Imagen 19**  
-Error al intentar escribir en Public.
+<img src="IMG/52.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
@@ -274,8 +268,8 @@ Error al intentar escribir en Public.
 *   No tiene acceso a Direccio
 *   FSRM bloquea `.exe` y multimedia
 
-📸 **Imagen 20**  
-Mensaje de archivo bloqueado.
+<img src="IMG/54.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
@@ -285,8 +279,8 @@ Mensaje de archivo bloqueado.
 *   Accede correctamente a Direccio
 *   No ve Operacions
 
-📸 **Imagen 21**  
-Unidad Z: visible y accesible.
+<img src="IMG/58.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
