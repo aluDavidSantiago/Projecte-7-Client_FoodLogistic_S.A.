@@ -58,6 +58,15 @@ La web és fosca per defecte, fet que millora la llegibilitat en entorns amb poc
 *   Classificació de carboni: F.
 *   Més contaminant que el 96 % de les webs analitzades.
 *   Ús d’energia estàndard (no renovable).
+  
+<img src="IMG/3.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/4.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/5.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/6.png" alt="..." width="700" height="auto"> 
+
 
 **Projecció anual**
 Amb 10.000 visites mensuals durant un any:
@@ -80,6 +89,7 @@ Tot i que les emissions per visita són moderades, el gran pes dels recursos mul
 *   Classificació de carboni digital: E.
 *   Pitjor que el 93 % de les URLs analitzades.
 
+
 **Desglossament d’emissions**
 
 *   Media (vídeos): 19,22 MB – 7,4898 g CO₂e.
@@ -101,6 +111,28 @@ L’accessibilitat s’ha tractat com a disseny universal, assegurant que la web
 ### 3. Lighthouse (Chrome DevTools)
 
 **Eina utilitzada:** Lighthouse – mode Desktop.
+
+Desktop:
+
+<img src="IMG/11.png" alt="..." width="7000" height="auto"> 
+
+<img src="IMG/12.png" alt="..." width="7000" height="auto"> 
+
+<img src="IMG/13.png" alt="..." width="7000" height="auto"> 
+
+<img src="IMG/14.png" alt="..." width="7000" height="auto"> 
+
+
+Mobile:
+<img src="IMG/7.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/8.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/9.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/10.png" alt="..." width="7000" height="auto"> 
+
+
 
 **Resultats obtinguts**
 
@@ -141,15 +173,7 @@ Totes les imatges informatives inclouen l’atribut `alt`, millorant l’accessi
 S’ha comprovat la navegació utilitzant exclusivament la tecla Tab, sense fer ús del ratolí.\
 Els elements interactius del menú i de les seccions són accessibles i mostren visualment el focus actiu mitjançant un marc visible, com es pot observar a l’apartat “Serveis”.
 
-***
-
-## Documentació aportada
-
-*   Captura de pantalla del focus visible al navegar amb la tecla Tab.
-*   Captures dels resultats de Website Carbon Calculator i EcoGrader.
-*   Captura de Lighthouse Desktop.
-*   Fragment de codi amb atribut `alt`.
-*   Checklist final.
+<img src="IMG/15.png" alt="..." width="700" height="auto"> 
 
 ***
 
