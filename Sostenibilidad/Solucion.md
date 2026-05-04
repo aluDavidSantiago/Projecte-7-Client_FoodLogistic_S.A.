@@ -2,7 +2,7 @@
 
 **Projecte:** Web de FoodLogístic\
 **Mòdul:** Sostenibilitat\
-**Curs:** CFGM
+**Curs:** CFGM\
 **Data:** 27-04-2026\
 **Alumne/a:** Santiago Hernandez
 
@@ -36,11 +36,11 @@
 *   Inter
 *   Poppins
 
-**Són fonts de sistema?**
+**Són fonts de sistema?**\
 No.\
-Són fonts externes carregades des de Google Fonts amb `preconnect`, fet que optimitza el temps de càrrega i redueix la latència.
+Són fonts externes carregades des de Google Fonts mitjançant `preconnect`, reduint la latència i millorant el rendiment.
 
-**Mode fosc**
+**Mode fosc**\
 Sí.\
 La web és fosca per defecte, fet que millora la llegibilitat en entorns amb poca llum i redueix el consum energètic en pantalles OLED.
 
@@ -54,29 +54,25 @@ La web és fosca per defecte, fet que millora la llegibilitat en entorns amb poc
 
 **Resultats obtinguts**
 
-*   Emissions per visita: 2,06 grams de CO₂.
-*   Classificació de carboni: F.
-*   Més contaminant que el 96 % de les webs analitzades.
-*   Ús d’energia estàndard (no renovable).
-  
+*   Emissions per visita: **2,06 grams de CO₂**
+*   Classificació de carboni: **F**
+*   Més contaminant que el **96 %** de les webs analitzades
+*   Ús d’energia estàndard (no renovable)
+
 <img src="IMG/3.png" alt="..." width="700" height="auto"> 
-
 <img src="IMG/4.png" alt="..." width="700" height="auto"> 
-
 <img src="IMG/5.png" alt="..." width="700" height="auto"> 
-
 <img src="IMG/6.png" alt="..." width="700" height="auto"> 
 
-
-**Projecció anual**
+**Projecció anual**\
 Amb 10.000 visites mensuals durant un any:
 
-*   247,3 kg de CO₂ equivalents.
-*   501 kWh d’energia consumida.
-*   Impacte equivalent a l’absorció anual de 12 arbres.
+*   247,3 kg de CO₂ equivalents
+*   501 kWh d’energia consumida
+*   Impacte equivalent a l’absorció anual de 12 arbres
 
-**Comentari**
-Tot i que les emissions per visita són moderades, el gran pes dels recursos multimèdia, especialment els vídeos, incrementa l’impacte ambiental anual. L’ús d’un allotjament amb energia verda i la reducció del pes dels vídeos permetria disminuir significativament les emissions.
+**Comentari**\
+Tot i que les emissions per visita són moderades, el pes dels recursos multimèdia (especialment els vídeos) incrementa l’impacte ambiental anual. L’ús de hosting amb energia verda i l’optimització dels vídeos reduiria significativament aquestes emissions.
 
 ***
 
@@ -84,69 +80,54 @@ Tot i que les emissions per visita són moderades, el gran pes dels recursos mul
 
 **Resultats obtinguts**
 
-*   Puntuació EcoGrader: 40 / 100.
-*   Emissions per càrrega: 7,71 g de CO₂.
-*   Classificació de carboni digital: E.
-*   Pitjor que el 93 % de les URLs analitzades.
-
+*   Puntuació EcoGrader: **40 / 100**
+*   Emissions per càrrega: **7,71 g de CO₂**
+*   Classificació digital: **E**
+*   Pitjor que el **93 %** de les URLs analitzades
 
 **Desglossament d’emissions**
 
-*   Media (vídeos): 19,22 MB – 7,4898 g CO₂e.
-*   Imatges: 423 KB – 0,1649 g CO₂e.
-*   Scripts: 67,79 KB – 0,0262 g CO₂e.
-*   HTML/CSS: 6,68 KB – 0,0023 g CO₂e.
+*   Media (vídeos): 19,22 MB – 7,4898 g CO₂e
+*   Imatges: 423 KB – 0,1649 g CO₂e
+*   Scripts: 67,79 KB – 0,0262 g CO₂e
+*   HTML/CSS: 6,68 KB – 0,0023 g CO₂e
 
-**Comentari**
-EcoGrader confirma que el principal impacte ambiental del projecte prové del contingut multimèdia. El codi HTML i CSS té un impacte molt baix, indicador d’una bona base tècnica amb marge de millora mitjançant optimització del contingut audiovisual.
+**Comentari**\
+El contingut multimèdia és el principal factor d’impacte ambiental. El codi HTML i CSS és molt lleuger, indicant una base tècnica correcta amb marge de millora en la gestió dels vídeos.
 
 ***
 
 ## Aspecte Social · Equitatiu (Accessibilitat – A11Y)
 
-L’accessibilitat s’ha tractat com a disseny universal, assegurant que la web sigui usable per al 100 % de la població, incloses persones amb diversitat visual, auditiva o motora, usuaris amb connexions lentes i diferents contextos d’ús.
+L’accessibilitat s’ha abordat com a **disseny universal**, garantint l’ús per persones amb diversitat funcional, connexions lentes i diferents contextos d’ús.
 
 ***
 
 ### 3. Lighthouse (Chrome DevTools)
 
-**Eina utilitzada:** Lighthouse – mode Desktop.
+**Eina utilitzada:** Lighthouse – mode Desktop i Mobile.
 
-Desktop:
+**Desktop**
 
-<img src="IMG/11.png" alt="..." width="7000" height="auto"> 
+<img src="IMG/11.png" alt="..." width="700" height="auto"> 
+<img src="IMG/12.png" alt="..." width="700" height="auto"> 
+<img src="IMG/13.png" alt="..." width="700" height="auto"> 
+<img src="IMG/14.png" alt="..." width="700" height="auto"> 
 
-<img src="IMG/12.png" alt="..." width="7000" height="auto"> 
+**Mobile**
 
-<img src="IMG/13.png" alt="..." width="7000" height="auto"> 
-
-<img src="IMG/14.png" alt="..." width="7000" height="auto"> 
-
-
-Mobile:
 <img src="IMG/7.png" alt="..." width="700" height="auto"> 
-
 <img src="IMG/8.png" alt="..." width="700" height="auto"> 
-
 <img src="IMG/9.png" alt="..." width="700" height="auto"> 
-
-<img src="IMG/10.png" alt="..." width="7000" height="auto"> 
-
-
+<img src="IMG/10.png" alt="..." width="700" height="auto"> 
 
 **Resultats obtinguts**
 
-*   Performance: 87 / 100.
-*   Best Practices: 100 / 100.
+*   Performance: **87 / 100**
+*   Best Practices: **100 / 100**
 
-**Anàlisi**
-La puntuació de Performance és bona, tot i mostrar possibles millores relacionades amb:
-
-*   Recursos multimèdia pesants.
-*   Imatges sense amplada i alçada explícites.
-*   Optimització de JavaScript.
-
-La puntuació de Best Practices és excel·lent (100), indicant complir totes les bones pràctiques de seguretat i qualitat.
+**Anàlisi**\
+La puntuació de performance és bona. Les millores detectades estan relacionades amb el pes de recursos multimèdia, imatges sense dimensions explícites i optimització de JavaScript. Best Practices assoleix puntuació màxima.
 
 ***
 
@@ -154,36 +135,43 @@ La puntuació de Best Practices és excel·lent (100), indicant complir totes le
 
 ### 1. Contrast i Color
 
-La web utilitza una paleta fosca amb text clar que compleix el mínim de 4.5:1 establert per les WCAG. Això millora la llegibilitat i permet reduir la brillantor del dispositiu, contribuint a l’estalvi energètic.
+Inicialment es va revisar el contrast de tots els textos per evitar combinacions poc llegibles.\
+La paleta fosca amb text clar compleix el contrast mínim **4.5:1**, millorant la llegibilitat i reduint la fatiga visual.
 
 ***
 
 ### 2. Alternatives Textuals (Alt Text)
 
-Totes les imatges informatives inclouen l’atribut `alt`, millorant l’accessibilitat per a lectors de pantalla i el posicionament SEO.
+**Problema detectat inicialment**\
+Algunes imatges no tenien una descripció clara per a lectors de pantalla.
 
-**Exemple:**
+**Abans**
 
 
+
+**Després**
+
+
+
+Això millora l’accessibilitat i el posicionament SEO.
 
 ***
 
 ### 3. Navegació per Teclat (Focus)
 
-S’ha comprovat la navegació utilitzant exclusivament la tecla Tab, sense fer ús del ratolí.\
-Els elements interactius del menú i de les seccions són accessibles i mostren visualment el focus actiu mitjançant un marc visible, com es pot observar a l’apartat “Serveis”.
+S’ha comprovat la navegació utilitzant només la tecla **Tab**, confirmant que tots els elements interactius són accessibles i que el **focus visual és clarament visible**, especialment al menú (exemple: “Serveis”).
 
-<img src="IMG/15.png" alt="..." width="700" height="auto"> 
+<img src="IMG/15.png" alt="..." width="7000" height="auto"> 
 
 ***
 
 ## Checklist final
 
-*   Contrast mínim 4.5:1 complert.
-*   Imatges amb atribut `alt`.
-*   Navegació amb tecla Tab funcional.
-*   Focus visible.
-*   Lighthouse superat (Performance i Best Practices).
+*   Contrast mínim 4.5:1 complert
+*   Imatges amb atribut `alt`
+*   Navegació amb tecla Tab funcional
+*   Focus visible
+*   Lighthouse superat (Performance i Best Practices)
 
 ***
 
@@ -191,13 +179,34 @@ Els elements interactius del menú i de les seccions són accessibles i mostren 
 
 ### Impacte Ambiental
 
-L’ús de codi semàntic i recursos lleugers redueix el consum de CPU i GPU, però el pes dels vídeos incrementa les emissions. Hi ha marge de millora optimitzant contingut multimèdia i utilitzant energia verda.
+El codi semàntic i els recursos lleugers redueixen el consum de CPU i GPU. El principal punt de millora és l’optimització del contingut multimèdia.
 
 ### Impacte Social
 
-L’accessibilitat garanteix el dret universal a la informació, eliminant la bretxa digital i permetent l’ús de la web en diferents contextos i capacitats.
+L’accessibilitat elimina la bretxa digital, garantint l’accés universal a la informació independentment del context o capacitat de l’usuari.
 
 ### Impacte Econòmic
 
 Una web accessible millora el SEO, evita sancions legals i amplia el mercat potencial, assegurant la viabilitat del projecte.
+
+***
+
+## Aspecte Econòmic · Viable
+
+### El valor de l’eficiència
+
+*   Codi lleuger = menys consum de CPU i memòria = menor cost en serveis cloud.
+*   Compatibilitat amb dispositius antics allarga el cicle de vida del hardware.
+*   Codi net i documentat redueix el deute tècnic i les hores de manteniment.
+
+### Monetització sostenible triada
+
+*   **Model principal:** Subscripció (SaaS) per a serveis formatius i contingut especialitzat.
+*   **Model complementari:** Freemium/Premium per assegurar equitat social.
+*   **Publicitat invasiva:** descartada pel seu alt impacte ambiental i mala experiència d’usuari.
+
+### Reflexió final
+
+El codi més barat de mantenir, el més fàcil de monetitzar i el que menys contamina és el mateix:\
+un codi senzill, accessible, eficient i ben optimitzat.
 
