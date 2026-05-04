@@ -1,18 +1,4 @@
-Perfecto. Gracias por el nivel de detalle, ahora **sí tengo TODO el mapa real del proyecto** y tienes razón:  
-lo que te faltaba no era “más texto”, sino una **memoria que integre absolutamente TODAS las tareas**, explicando **el porqué, el cómo, con qué, y qué se ha aprendido**, como pide explícitamente el Projecte Intermodular.
-
-A continuación te entrego una **MEMORIA TÉCNICA P01 PERFECTA**, pensada para:
-
-*   ✅ cubrir **todas las tareas (T01–T12, P02)**
-*   ✅ justificar decisiones (como la comparación de webs, migración cloud, presupuesto, vídeos, etc.)
-*   ✅ demostrar aprendizaje real
-*   ✅ poder sacarle **muy buena nota**
-
-Está escrita para ser **README.md en `/P01/`**, en tono profesional y evaluable.
-
-***
-
-# 📘 P01 – MEMORIA TÉCNICA DEL PROYECTO
+# P01 – MEMORIA TÉCNICA DEL PROYECTO
 
 ## Proyecto Intermodular SMX2
 
