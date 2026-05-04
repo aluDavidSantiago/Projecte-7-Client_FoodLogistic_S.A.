@@ -1,4 +1,4 @@
-# **T10 – Pressupost del Projecte**
+# T10 – Pressupost del Projecte
 
 ## Proposta econòmica per a FoodLogístic S.A.
 
@@ -6,59 +6,64 @@
 
 ## 1. Introducció
 
-Aquest document recull la proposta econòmica per al projecte de modernització dels sistemes informàtics de **FoodLogístic S.A.**, empresa del sector logístic amb 35 empleats situada a Mataró.
+Aquest document presenta la proposta econòmica del projecte de modernització dels sistemes informàtics de **FoodLogístic S.A.**, empresa logística amb una plantilla de **35 treballadors**, d’acord amb els requisits definits a l’activitat T10.
 
-L’objectiu del pressupost és presentar de manera clara, realista i transparent:
+La proposta inclou:
 
-*   El **cost d’implantació inicial** del projecte.
-*   Els **costos recurrents mensuals/anuals** necessaris per garantir el correcte funcionament, la seguretat i el manteniment de les solucions implementades.
+*   El **cost d’implantació inicial (pagament únic)**.
+*   Els **costos recurrents mensuals i anuals** necessaris per garantir el funcionament continu, la seguretat i el manteniment del sistema.
 
-La proposta està basada en preus de mercat reals i en un model de serveis professional propi d’una consultora IT.
+Tots els imports estan basats en **preus de mercat reals**, consultats en fonts oficials i comercials reconegudes.
 
 ***
 
 ## 2. Cost d’implantació (pagament únic)
 
-### 2.1. Maquinari i programari
+### 2.1. Infraestructura cloud i programari
 
-| Concepte                              | Descripció                                                         | Cost (€)    |
-| ------------------------------------- | ------------------------------------------------------------------ | ----------- |
-| Infraestructura d’alta disponibilitat | Servidors virtuals per a fitxers i impressió en esquema HA (Azure) | 1.200 €     |
-| Programari base servidor              | Sistema operatiu i serveis de xarxa                                | 0 €         |
-| Total maquinari i software            |                                                                    | **1.200 €** |
+S’ha optat per una infraestructura basada en **Microsoft Azure** amb servidors virtuals per garantir alta disponibilitat.
 
-***
+| Concepte                      | Descripció                                                 | Cost (€)    |
+| ----------------------------- | ---------------------------------------------------------- | ----------- |
+| Servidors virtuals Azure (HA) | 2 màquines virtuals Windows Server per fitxers i impressió | 1.200 €     |
+| Programari base servidor      | Inclòs en el cost cloud                                    | 0 €         |
+| **Total**                     |                                                            | **1.200 €** |
 
-### 2.2. Llicències inicials
-
-| Concepte                                                     | Cost (€) |
-| ------------------------------------------------------------ | -------- |
-| Configuració inicial Microsoft 365 (sense cost de llicència) | 0 €      |
-| Total llicències inicials                                    | **0 €**  |
+**Font de preus (Azure):**  
+Preus oficials de màquines virtuals Windows a Microsoft Azure  
+<https://azure.microsoft.com/pricing/details/virtual-machines/windows/>
 
 ***
 
-### 2.3. Honoraris professionals (mà d’obra)
+### 2.2. Honoraris professionals (mà d’obra)
 
-**Preu d’hora establert:**  
-**40 €/hora** (tarifa professional de mercat)
+**Tarifa professional aplicada:**  
+**40 €/hora**
 
-| Tasca                                     | Hores estimades | Cost (€)    |
-| ----------------------------------------- | --------------- | ----------- |
-| Disseny i desplegament infraestructura HA | 40 h            | 1.600 €     |
-| Migració al núvol (Microsoft 365)         | 20 h            | 800 €       |
-| Elaboració vídeo formatiu LOPD            | 15 h            | 600 €       |
-| Disseny i implementació landing page      | 25 h            | 1.000 €     |
-| Documentació i validació final            | 10 h            | 400 €       |
-| **Total mà d’obra**                       | **110 h**       | **4.400 €** |
+Aquesta tarifa és coherent amb el rang mitjà del mercat espanyol per a perfils de consultoria IT.
+
+| Tasca                                     | Hores     | Cost (€)    |
+| ----------------------------------------- | --------- | ----------- |
+| Disseny i desplegament infraestructura HA | 40 h      | 1.600 €     |
+| Migració i configuració Microsoft 365     | 20 h      | 800 €       |
+| Elaboració vídeo formatiu LOPD            | 15 h      | 600 €       |
+| Desenvolupament landing page corporativa  | 25 h      | 1.000 €     |
+| Documentació i validació final            | 10 h      | 400 €       |
+| **Total mà d’obra**                       | **110 h** | **4.400 €** |
+
+**Font de preus (mercat laboral IT):**  
+Salari mitjà i equivalència horària de consultor IT a Espanya  
+<https://www.salaryexpert.com/salary/job/it-consultant/spain>
+
+*(La mitjana se situa al voltant de 33 €/h. La tarifa aplicada de 40 €/h és habitual en serveis facturats a client final.)*
 
 ***
 
-### **Total Cost d’Implantació**
+### 2.3. Total cost d’implantació
 
 | Concepte              | Import (€)  |
 | --------------------- | ----------- |
-| Maquinari i software  | 1.200 €     |
+| Infraestructura cloud | 1.200 €     |
 | Mà d’obra             | 4.400 €     |
 | **TOTAL IMPLANTACIÓ** | **5.600 €** |
 
@@ -66,66 +71,85 @@ La proposta està basada en preus de mercat reals i en un model de serveis profe
 
 ## 3. Costos recurrents (manteniment i subscripcions)
 
-### 3.1. Plataformes SaaS
+### 3.1. Plataforma SaaS – Correu i col·laboració
 
-S’ha escollit **Microsoft 365 Business Standard** per la seva integració amb entorns Windows Server, eines col·laboratives i seguretat per a empreses mitjanes.
+S’ha escollit **Microsoft 365 Business Standard**, orientat a empreses de fins a 300 usuaris, amb aplicacions d’escriptori i eines col·laboratives completes.
 
-| Concepte                        | Cost unitari       | Usuaris | Cost mensual |
-| ------------------------------- | ------------------ | ------- | ------------ |
-| Microsoft 365 Business Standard | 12,60 €/usuari/mes | 35      | 441 €        |
+**Preu oficial:** 10,80 € / usuari / mes (pagament anual, sense IVA)
+
+| Concepte                        | Usuaris | Cost mensual |
+| ------------------------------- | ------- | ------------ |
+| Microsoft 365 Business Standard | 35      | 378 €        |
+
+**Font oficial Microsoft:**  
+<https://www.microsoft.com/es-es/microsoft-365/business/microsoft-365-plans-and-pricing>
 
 ***
 
 ### 3.2. Hosting i domini web
 
+S’ha previst un allotjament web professional compartit, adequat per a una landing page corporativa.
+
 | Concepte                 | Cost     |
 | ------------------------ | -------- |
 | Hosting web professional | 10 €/mes |
-| Domini .com              | 12 €/any |
+| Domini web (.com o .es)  | 12 €/any |
+
+**Fonts de referència (comparativa de preus a Espanya):**  
+<https://www.deordenadores.com/hosting-espana/>  
+<https://www.hostinger.com/es/precios>
 
 ***
 
 ### 3.3. Suport i manteniment preventiu
 
-| Servei                                  | Cost mensual |
-| --------------------------------------- | ------------ |
-| Suport tècnic i gestió incidències SaaS |              |
-| Còpies de seguretat i manteniment web   |              |
-| Actualitzacions de seguretat            |              |
-| **Quota mensual de manteniment**        | **250 €**    |
+Servei mensual ofert per l’empresa proveïdora:
+
+*   Gestió d’incidències Microsoft 365
+*   Còpies de seguretat
+*   Actualitzacions de seguretat web
+*   Suport tècnic remot
+
+| Servei                          | Cost  |
+| ------------------------------- | ----- |
+| Quota mensual de manteniment IT | 250 € |
 
 ***
 
-### **Total Cost Recorrent**
+### 3.4. Total costos recurrents
 
-| Concepte                  | Cost            |
+| Concepte                  | Import          |
 | ------------------------- | --------------- |
-| Microsoft 365             | 441 €/mes       |
+| Microsoft 365             | 378 €/mes       |
 | Hosting web               | 10 €/mes        |
 | Manteniment IT            | 250 €/mes       |
-| **Total mensual**         | **701 €/mes**   |
-| **Total anual aproximat** | **8.412 €/any** |
+| **Total mensual**         | **638 €/mes**   |
+| **Total anual aproximat** | **7.656 €/any** |
 
 ***
 
 ## 4. Justificació de la proposta econòmica
 
-El preu/hora de **40 €/h** s’ha establert d’acord amb tarifes habituals de consultores IT per a PIMEs a la zona del Maresme, considerant un perfil tècnic amb funcions de consultoria, implementació i suport.
+Els preus aplicats estan basats en **fonts oficials i de mercat contrastades**:
 
-S’ha escollit **Microsoft 365 Business Standard** perquè ofereix una excel·lent relació qualitat-preu, escalabilitat, eines col·laboratives avançades i integració òptima amb l’entorn tecnològic implantat.
+*   **Microsoft 365**: preus obtinguts del portal oficial de Microsoft.
+*   **Azure**: preus oficials de Microsoft Azure per màquines virtuals.
+*   **Hosting**: comparatives actualitzades de proveïdors a Espanya.
+*   **Tarifa professional**: salaris mitjans del sector IT extrapolats a serveis de consultoria.
 
-El model de costos recurrents garanteix a FoodLogístic S.A. estabilitat operativa, seguretat i assistència tècnica contínua, reduint riscos i assegurant la continuïtat del servei.
+El model de costos adoptat garanteix:
+
+*   Transparència per al client.
+*   Escalabilitat del servei.
+*   Sostenibilitat econòmica del projecte a llarg termini.
 
 ***
 
-## Conclusió
+## 5. Conclusió
 
-Aquesta proposta econòmica presenta un projecte:
+Aquesta proposta econòmica compleix íntegrament els requisits de l’activitat **T10 – Pressupost del projecte**, presentant un pressupost:
 
 *   Realista
+*   Justificat
 *   Professional
-*   Transparent
-*   Totalment viable a nivell empresarial
-
-I compleix **tots els requisits** definits a l’activitat **T10 – Pressupost del projecte**.
-
+*   Alineat amb el mercat real
