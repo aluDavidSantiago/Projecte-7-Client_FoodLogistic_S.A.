@@ -4,7 +4,6 @@
 
 Aquesta tasca, a realitzar en parelles, consisteix a dissenyar l’estructura jurídica i administrativa d’una empresa de serveis tecnològics (desenvolupament de software, ciberseguretat o integració de sistemes) amb seu a Mataró.
 
-***
 
 # 1. Recerca: El Model de Negoci i la Forma Jurídica
 
@@ -23,7 +22,6 @@ Cal investigar:
 *   Si l’empresa es pot certificar com a *Startup* davant d’ENISA.
 *   Quins beneficis concrets aportaria aquesta certificació.
 
-***
 
 # 2. Fase de Tràmits: El “Deploy” de l’Empresa
 
@@ -49,7 +47,6 @@ Investigació sobre:
     *   Formulari de sol·licitud d’espai del TecnoCampus, o
     *   Llicència d’activitats digitals de l’Ajuntament de Mataró.
 
-***
 
 # 3. Defensa Crítica: “Pitch de Resiliència”
 
@@ -76,7 +73,6 @@ Rebatre l’argument de l’inversor que afirma:
 
 > “Per fer software no cal empresa; amb ser autònom n’hi ha prou”.
 
-***
 
 # 4. Presentació Oral en Vídeo (mínim 5 minuts)
 
@@ -101,7 +97,6 @@ La presentació ha de seguir l’estructura retòrica clàssica:
 *   Recapitulació final.
 *   Presentació del lema oficial de l’empresa.
 
-***
 
 # Mètode Anti-IA: El “Live Check”
 
