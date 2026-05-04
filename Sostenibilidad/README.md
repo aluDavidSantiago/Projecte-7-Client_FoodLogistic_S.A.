@@ -1,4 +1,4 @@
-## Web de FoodLogístic
+# Web de FoodLogístic
 
 Aquest repositori conté la **memòria de sostenibilitat** del projecte *Web de FoodLogístic*, realitzat dins del mòdul **MP1708 – Sostenibilitat** del cicle formatiu **CFGS DAM / DAW**.
 
@@ -51,26 +51,40 @@ Aquest repositori inclou:
 *   Resultats de:
     *   Website Carbon Calculator (emissions de CO₂ per visita).
     *   EcoGrader (criteris de Green IT).
-*   Identificació dels principals factors d’impacte ambiental.
+*   Identificació dels principals factors d’impacte ambiental, destacant el contingut multimèdia com a principal factor d’emissions.
+
+***
 
 ### 2. Impacte social (Accessibilitat – A11Y)
 
-*   Accessibilitat entesa com a **disseny universal**.
-*   Anàlisi amb Lighthouse (Chrome DevTools) posant especial atenció a:
+*   Accessibilitat entesa com a **disseny universal**, no com una funció addicional.
+*   Anàlisi amb Lighthouse (Chrome DevTools), posant especial atenció a:
     *   Performance
     *   Best Practices
-*   Aplicació dels criteris:
+*   Aplicació dels criteris clars de millora:
     *   Contrast text/fons mínim de 4.5:1
-    *   Alternatives textuals mitjançant `alt`
+    *   Alternatives textuals mitjançant l’atribut `alt`
     *   Navegació per teclat amb focus visible
 
-### 3. Impacte econòmic
+***
 
-*   Beneficis d’una web accessible i sostenible:
-    *   Millora del posicionament SEO.
-    *   Reducció de riscos legals.
-    *   Ampliació del mercat potencial.
-*   Viabilitat del projecte com a web corporativa i formativa.
+### 3. Impacte econòmic (Viable)
+
+La sostenibilitat econòmica del projecte s’ha treballat des de dos punts de vista: l’eficiència tècnica i la monetització sostenible.
+
+#### Eficiència i optimització de recursos
+
+*   L’ús de codi HTML i CSS semàntic redueix el consum de CPU i memòria, disminuint els costos d’infraestructura en entorns cloud.
+*   El projecte funciona correctament en dispositius antics, allargant el cicle de vida del hardware i contribuint a l’economia circular.
+*   Un codi net, estructurat i documentat redueix el deute tècnic i el cost de manteniment a llarg termini.
+
+#### Models de monetització sostenible
+
+*   **Model de subscripció (SaaS):** model principal, basat en oferir continguts formatius i serveis especialitzats a canvi d’una quota periòdica. Permet ingressos recurrents i manteniment continu del projecte.
+*   **Model freemium/premium:** versió bàsica gratuïta i funcionalitats avançades de pagament, garantint equitat social i viabilitat econòmica.
+*   **Publicitat invasiva:** descartada per l’elevat impacte ambiental, el consum de dades i la mala experiència d’usuari.
+
+Aquest enfocament garanteix la rendibilitat del projecte sense comprometre ni l’impacte ambiental ni el social.
 
 ***
 
@@ -79,7 +93,7 @@ Aquest repositori inclou:
 La web compleix criteris bàsics d’accessibilitat:
 
 *   Navegació completa utilitzant únicament la tecla Tab.
-*   Focus visible als elements interactius com el menú de navegació.
+*   Focus visible als elements interactius, com el menú de navegació i les seccions.
 *   Bon contrast de colors.
 *   Ús d’HTML semàntic.
 *   Imatges informatives amb atribut `alt`.
@@ -90,13 +104,13 @@ Les comprovacions d’accessibilitat s’han realitzat de manera manual i s’ha
 
 ## Eines utilitzades
 
-*   Website Carbon Calculator  
+*   **Website Carbon Calculator**  
     <https://www.websitecarbon.com/>
 
-*   EcoGrader  
+*   **EcoGrader**  
     <https://ecograder.com/>
 
-*   Lighthouse (Chrome DevTools)  
+*   **Lighthouse (Chrome DevTools)**  
     Mode Desktop
 
 ***
@@ -105,7 +119,7 @@ Les comprovacions d’accessibilitat s’han realitzat de manera manual i s’ha
 
 *   La web compleix els requisits especificats a l’enunciat del mòdul.
 *   La documentació reflecteix tant els punts forts com les àrees de millora.
-*   El projecte és tècnicament sostenible, amb marge de millora ambiental mitjançant optimització de contingut multimèdia i ús d’energia renovable.
+*   El projecte és sostenible a nivell ambiental, social i econòmic, amb marge de millora futura mitjançant optimització de continguts multimèdia i ús d’energies renovables.
 
 ***
 
@@ -118,4 +132,3 @@ Totes les evidències (resultats de les eines, comprovacions d’accessibilitat 
 ## Notes finals
 
 Aquest repositori conté **la documentació de sostenibilitat** del projecte, no el codi font complet de l’aplicació, d’acord amb el que es demana a l’activitat del mòdul **MP1708 – Sostenibilitat**.
-
