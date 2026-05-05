@@ -1,18 +1,4 @@
-Perfecto. Gracias por el nivel de detalle, ahora **sí tengo TODO el mapa real del proyecto** y tienes razón:  
-lo que te faltaba no era “más texto”, sino una **memoria que integre absolutamente TODAS las tareas**, explicando **el porqué, el cómo, con qué, y qué se ha aprendido**, como pide explícitamente el Projecte Intermodular.
-
-A continuación te entrego una **MEMORIA TÉCNICA P01 PERFECTA**, pensada para:
-
-*   ✅ cubrir **todas las tareas (T01–T12, P02)**
-*   ✅ justificar decisiones (como la comparación de webs, migración cloud, presupuesto, vídeos, etc.)
-*   ✅ demostrar aprendizaje real
-*   ✅ poder sacarle **muy buena nota**
-
-Está escrita para ser **README.md en `/P01/`**, en tono profesional y evaluable.
-
-***
-
-# 📘 P01 – MEMORIA TÉCNICA DEL PROYECTO
+# P01 – MEMORIA TÉCNICA DEL PROYECTO
 
 ## Proyecto Intermodular SMX2
 
@@ -26,24 +12,16 @@ Santiago Moreno
 
 ## 1. Introducción
 
-Este documento recoge la **memoria técnica completa del proyecto FoodLogístic S.A.**, desarrollado dentro del módulo de **Proyecto Intermodular** del ciclo formativo SMX2.
+El presente documento recoge la **memoria técnica completa del proyecto FoodLogístic S.A.**, desarrollado dentro del módulo de **Proyecto Intermodular** del ciclo formativo de grado medio **Sistemas Microinformáticos y Redes (SMX2)**.
 
-El proyecto simula un **caso real de empresa**, donde se nos encarga analizar, diseñar y documentar una solución tecnológica integral que cubra:
+El proyecto se plantea como un **caso real de empresa**, en el que se debe analizar, diseñar, implementar y documentar una solución tecnológica integral que permita a la empresa modernizar su infraestructura IT, mejorar su seguridad, cumplir la normativa legal vigente y desarrollar una presencia web corporativa profesional.
 
-*   Infraestructura informática
-*   Seguridad y protección de datos
-*   Presencia web corporativa
-*   Uso de servicios en la nube
-*   Planificación, presupuesto y toma de decisiones técnicas
+Esta memoria tiene como finalidad:
 
-La finalidad de esta memoria es **explicar de forma clara y estructurada**:
-
-*   Qué se tenía que hacer
-*   Qué se ha hecho realmente
-*   Cómo se ha implementado
-*   Con qué herramientas
-*   Qué decisiones se tomaron y por qué
-*   Qué se ha aprendido durante el proyecto
+*   Documentar todas las **tareas y productos** desarrollados
+*   Explicar **qué se tenía que hacer y qué se ha hecho**
+*   Justificar las **decisiones técnicas tomadas**
+*   Reflejar los **aprendizajes adquiridos** durante el proyecto
 
 ***
 
@@ -51,101 +29,120 @@ La finalidad de esta memoria es **explicar de forma clara y estructurada**:
 
 ### 2.1 Contexto inicial
 
-FoodLogístic S.A. es una empresa del sector de la **logística alimentaria**, que trabaja con:
+FoodLogístic S.A. es una empresa del sector de la **logística alimentaria**, que gestiona información sensible relacionada con:
 
-*   Datos de clientes
-*   Información interna
-*   Empleados organizados por departamentos
+*   Clientes
+*   Trabajadores
+*   Operaciones internas
+*   Recursos humanos
 
-Antes del proyecto, la empresa presentaba:
+Antes del inicio del proyecto, la empresa presentaba las siguientes carencias:
 
-*   Falta de centralización IT
-*   Riesgos de seguridad
-*   Ausencia de documentación técnica
+*   Ausencia de infraestructura informática centralizada
+*   Riesgos de acceso no controlado a los datos
+*   Falta de documentación técnica
 *   Presencia web inexistente o incompleta
-*   Incumplimiento potencial de normativas legales
+*   Cumplimiento legal no garantizado (RGPD, LOPDGDD)
 
 ***
 
 ### 2.2 Necesidades detectadas
 
-| Área      | Necesidad                      |
-| --------- | ------------------------------ |
-| Usuarios  | Gestión centralizada           |
-| Datos     | Acceso controlado por perfiles |
-| Impresión | Sistema compartido y eficiente |
-| Seguridad | Cumplimiento RGPD y LOPDGDD    |
-| Formación | Concienciación de empleados    |
-| Web       | Imagen corporativa y legal     |
-| Gestión   | Planificación y presupuesto    |
+| Área      | Necesidad                       |
+| --------- | ------------------------------- |
+| Usuarios  | Gestión centralizada de cuentas |
+| Datos     | Acceso seguro y segmentado      |
+| Impresión | Sistema compartido y eficiente  |
+| Seguridad | Protección de datos personales  |
+| Formación | Concienciación de empleados     |
+| Web       | Imagen corporativa profesional  |
+| Gestión   | Planificación y presupuesto     |
 
 ***
 
-## 3. Propuesta de solución global
+## 3. Relación completa de tareas y productos del proyecto
 
-Se propone una solución **integral y realista**, dividida en tareas técnicas claramente diferenciadas pero interconectadas.
+La siguiente tabla muestra **todas las tareas (T) y productos (P)** desarrollados, garantizando la trazabilidad académica y técnica del Proyecto Intermodular.
 
-| Bloque           | Tareas        |
-| ---------------- | ------------- |
-| Infraestructura  | T01, T03, T04 |
-| Web corporativa  | T02, T08, P02 |
-| Seguridad y LOPD | T05           |
-| Cloud            | T07           |
-| Gestión          | T09, T12      |
+| Código | Tipo     | Descripción                                     | Bloque          |
+| ------ | -------- | ----------------------------------------------- | --------------- |
+| T01    | Tarea    | Active Directory y gestión de usuarios          | Infraestructura |
+| T02    | Tarea    | Desarrollo web corporativa individual           | Web             |
+| T03    | Tarea    | Servidor de ficheros y permisos NTFS            | Infraestructura |
+| T04    | Tarea    | Servidor de impresión y GPO                     | Infraestructura |
+| T05    | Tarea    | Vídeo formativo LOPD para empleados             | Seguridad       |
+| T06    | Tarea    | Cumplimiento legal web (RGPD, LOPDGDD, LSSI-CE) | Seguridad       |
+| T07    | Tarea    | Presentación sobre migración a la nube          | Cloud           |
+| T08    | Tarea    | Comparativa de propuestas web                   | Web             |
+| T09    | Tarea    | Planificación del proyecto (Gantt)              | Gestión         |
+| T10    | Tarea    | Integrada en el desarrollo global del proyecto  | General         |
+| T11    | Tarea    | Integrada en el desarrollo global del proyecto  | General         |
+| T12    | Tarea    | Presupuesto y viabilidad del proyecto           | Gestión         |
+| P01    | Producto | Memoria técnica del proyecto                    | Documentación   |
+| P02    | Producto | Web corporativa final publicada                 | Web             |
 
 ***
 
 ## 4. Infraestructura técnica (T01, T03, T04)
 
-### 4.1 Objetivo
+### 4.1 Objetivo de la infraestructura
 
-Crear una infraestructura **centralizada, segura y escalable** basada en Windows Server.
+Diseñar una infraestructura **centralizada, segura y escalable**, basada en **Windows Server**, que simule un entorno empresarial real y permita una gestión eficiente de usuarios y recursos.
 
 ***
 
-### 4.2 Active Directory (T01)
+### 4.2 Active Directory – Gestión de usuarios (T01)
 
 **Qué se tenía que hacer**
 
 *   Centralizar usuarios y equipos
 *   Organizar la empresa por departamentos
 
-**Cómo se hizo**
+**Cómo se realizó**
 
 *   Instalación de Windows Server
-*   Promoción a Controlador de Dominio
+*   Promoción a controlador de dominio
 *   Creación de Unidades Organizativas (OU)
 *   Alta de usuarios por perfiles
 
 **Qué se aprendió**
 
 *   Diseño lógico de dominios
-*   Importancia de la jerarquía del AD
-*   Gestión realista de usuarios en empresa
+*   Importancia de una buena estructura de AD
+*   Gestión realista de usuarios empresariales
 
 ***
 
 ### 4.3 Servidor de ficheros (T03)
 
-**Objetivo**
-Garantizar un acceso seguro a la información.
+**Objetivo**  
+Garantizar un acceso seguro y organizado a los datos corporativos.
 
 **Implementación**
 
 *   Carpetas por departamento
 *   Permisos NTFS diferenciados
-*   Acceso exclusivo según rol
+*   Acceso según rol del usuario
 
 | Departamento   | Acceso              |
 | -------------- | ------------------- |
-| Administración | Lectura / Escritura |
-| Logística      | Lectura / Escritura |
+| Administración | Lectura y escritura |
+| Logística      | Lectura y escritura |
 | RRHH           | Acceso restringido  |
 
-**Aprendizaje**
+**Aprendizajes**
 
 *   Gestión avanzada de permisos
-*   Riesgos de mala asignación de accesos
+*   Importancia de la segmentación de datos
+
+<img src="IMG/9.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/7.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/8.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/52.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
@@ -153,41 +150,45 @@ Garantizar un acceso seguro a la información.
 
 **Qué se hizo**
 
-*   Instalación de rol de impresión
+*   Instalación del rol de impresión
 *   Printer pooling
-*   Distribución mediante GPO
+*   Distribución de impresoras mediante GPO
 
-**Beneficio**
+**Beneficios**
 
-*   Ahorro de recursos
-*   Mantenimiento centralizado
+*   Optimización de recursos
+*   Gestión centralizada
+*   Mayor eficiencia operativa
 
 ***
 
-## 5. Web corporativa (T02, T08, P02)
+## 5. Web corporativa (T02, T08 y P02)
 
-### 5.1 Web individual (T02)
+### 5.1 Propuesta web individual (T02)
 
-Cada miembro del grupo desarrolló una **propuesta web individual**, publicada mediante GitHub Pages.
+Cada miembro del grupo desarrolló una **web corporativa individual**, publicada en GitHub Pages.
 
-*   Web T02:  
+*   Web:  
     <https://aludavidsantiago.github.io/foodlogistic-web/>
 *   Repositorio:  
     <https://github.com/aluDavidSantiago/foodlogistic-web>
 
+<img src="IMG/008.png" alt="..." width="700" height="auto"> 
+
+
 **Aprendizajes**
 
-*   Estructura HTML
+*   Estructuración HTML
 *   Diseño responsivo
 *   Publicación web real
 
+
+
 ***
 
-### 5.2 Comparativa de webs (T08)
+### 5.2 Comparativa de propuestas web (T08)
 
-Se compararon **dos propuestas (Web A y Web B)** para decidir una web final.
-
-**Criterios analizados**
+Se compararon dos propuestas (Web A y Web B) según:
 
 *   Diseño visual
 *   Contenido informativo
@@ -196,144 +197,206 @@ Se compararon **dos propuestas (Web A y Web B)** para decidir una web final.
 *   Aspectos legales
 
 **Decisión final**
-Se opta por una **web combinada**, integrando:
+Se optó por una **web combinada**, tomando:
 
-*   Diseño visual atractivo (Web A)
-*   Contenido claro y completo (Web B)
+*   Diseño visual e interactividad de la Web A
+*   Claridad informativa y estructura de la Web B
 
-Esto permitió una solución **equilibrada y profesional**.
+<img src="IMG/005.png" alt="..." width="700" height="auto"> 
+
+
+<img src="IMG/003.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/002.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/001.png" alt="..." width="700" height="auto"> 
+
 
 ***
 
-### 5.3 Web final – P02
+### 5.3 Web final del proyecto – P02
 
-**Web oficial del proyecto**
-
-*   <https://classessmx2n.github.io/web-projecte7-aluDavidSantiago/>
+**Web oficial**
+<https://classessmx2n.github.io/web-projecte7-aluDavidSantiago/>
 
 **Repositorio**
-
-*   <https://github.com/classesSMX2n/web-projecte7-aluDavidSantiago>
+<https://github.com/classesSMX2n/web-projecte7-aluDavidSantiago>
 
 Incluye:
 
 *   Página principal
-*   Secciones informativas
+*   Secciones corporativas
 *   Aviso legal
 *   Política de privacidad
 *   Política de cookies
 *   Vídeos formativos RGPD
 
+<img src="IMG/web1.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/web2.png" alt="..." width="700" height="auto"> 
+
 ***
 
-## 6. Seguridad y LOPD (T05)
+## 6. Seguridad, LOPD y cumplimiento legal (T05 y T06)
 
-### 6.1 Vídeos formativos
+### 6.1 Vídeo formativo LOPD (T05)
 
-Se desarrolló un **vídeo formativo sobre LOPD/RGPD para empleados**, explicando:
+Se creó un **vídeo formativo dirigido a empleados**, en el que se explica:
 
-*   Uso correcto de datos
+*   Tratamiento correcto de datos personales
 *   Riesgos de malas prácticas
 *   Responsabilidades legales
+*   Importancia de la confidencialidad
 
-El vídeo se integró directamente en la web corporativa.
+El vídeo fue integrado en la web corporativa.
 
-**Aprendizaje**
+<img src="IMG/web3.png" alt="..." width="700" height="auto"> 
 
-*   La seguridad no es solo técnica
-*   Importancia de concienciar al personal
+***
+
+### 6.2 Cumplimiento legal web (T06)
+
+Se desarrollaron e integraron los documentos legales obligatorios:
+
+*   Aviso legal
+*   Política de privacidad
+*   Política de cookies
+
+Cumpliendo con:
+
+*   RGPD
+*   LOPDGDD
+*   LSSI-CE
+
+<img src="IMG/web4.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/web5.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/web6.png" alt="..." width="700" height="auto"> 
 
 ***
 
 ## 7. Servicios en la nube – Migración (T07)
 
-Se realizó una **presentación técnica** sobre la **migración del correo corporativo a la nube**.
+Se elaboró una **presentación técnica** sobre la **migración del correo corporativo a la nube**, analizando:
 
-**Contenido**
-
-*   Justificación de la migración
 *   Ventajas del cloud
 *   Seguridad y disponibilidad
-*   Comparación con sistema local
+*   Comparación con sistemas locales
+*   Viabilidad técnica y económica
 
-**Aprendizaje**
-
-*   Evaluación de servicios cloud
-*   Argumentación técnica ante cliente
+<img src="IMG/pres.png" alt="..." width="700" height="auto"> 
 
 ***
 
 ## 8. Planificación del proyecto (T09)
 
-Se elaboró un **diagrama de Gantt** con:
+Se diseñó un **diagrama de Gantt** que define:
 
 *   Fases del proyecto
 *   Dependencias
-*   Cronograma realista
+*   Duración de tareas
+*   Orden lógico de ejecución
 
-Esto permitió:
+Esto permitió una correcta organización del trabajo.
 
-*   Mejor organización
-*   Identificación de riesgos
-*   Visión global del proyecto
+<img src="IMG/004.png" alt="..." width="700" height="auto"> 
 
 ***
 
-## 9. Presupuesto y viabilidad (T12)
+## 9. Presupuesto y viabilidad (T10)
 
-Se realizó un estudio de **presupuesto y viabilidad**, justificando:
+Se realizó un estudio de **presupuesto** teniendo en cuenta:
 
-*   Costes técnicos
+*   Costes de infraestructura
 *   Recursos humanos
-*   Enfoque realista para una PYME
+*   Escenario realista para una PYME
 
 **Conclusión**
-La solución es **económicamente viable** gracias al uso de:
+La solución es **viable económicamente** gracias al uso de software estándar y servicios en la nube.
 
-*   Software estándar
-*   Servicios en la nube
-*   Infraestructura optimizada
+<img src="IMG/presupuesto.png" alt="..." width="700" height="auto"> 
 
 ***
 
 ## 10. Reparto de trabajo y aportación individual
 
-Cada miembro del equipo participó activamente en:
+El proyecto se desarrolló de forma **colaborativa**, simulando un entorno profesional.
 
+Ambos integrantes participaron en:
+
+*   Análisis del cliente
+*   Toma de decisiones técnicas
 *   Infraestructura
 *   Web
 *   Seguridad
 *   Documentación
 *   Presentaciones
-*   Decisiones técnicas
-
-Se trabajó de forma coordinada, simulando un **entorno profesional real**.
 
 ***
 
-## 11. Aprendizajes globales
+## 11. Presupuesto y viabilidad (T11)
 
-Durante el proyecto se adquirieron competencias clave:
+Perfecto 👍, aquí te dejo **las versiones cortas y bien ajustadas** de los dos apartados que faltaban, listas para **copiar y pegar** en la memoria **sin que quede larga ni pesada**.
 
-*   Diseño de infraestructuras reales
-*   Documentación técnica profesional
+***
+
+## 12. Presupuesto, viabilidad y estructura empresarial (T12)
+
+En la tarea **T12: “TechLaunch Mataró: De la Idea a la Startup”** se analizó la **viabilidad empresarial y jurídica** de una empresa de servicios tecnológicos situada en Mataró.
+
+Se compararon distintas formas jurídicas atendiendo a:
+
+*   Capital mínimo
+*   Responsabilidad frente a terceros
+*   Agilidad en la toma de decisiones
+
+La opción de **startup bajo la Ley 28/2022** se consideró la más adecuada, ya que ofrece ventajas fiscales, mayor protección del código y mejores condiciones para la inversión. También se simuló el proceso de constitución de la empresa, incluyendo trámites como el certificado negativo de nombre, la redacción de estatutos con cláusulas de propiedad intelectual y el alta en el entorno del **TecnoCampus Mataró**.
+
+**Aprendizaje:**  
+Se comprendió la importancia de una estructura jurídica sólida para garantizar la viabilidad económica y legal de un proyecto tecnológico.
+
+<img src="IMG/nur.png" alt="..." width="700" height="auto"> 
+
+
+***
+
+## 13 Implantación de una intranet empresarial con WordPress (T11)
+
+Como parte complementaria del proyecto se realizó la **implantación de una intranet empresarial** mediante **WordPress**, con el objetivo de simular un entorno web interno de trabajo corporativo.
+
+La intranet se desarrolló en un entorno local utilizando **Local WP**, y se amplió mediante el plugin **WP File Manager** para la gestión documental. Se creó una estructura de carpetas que simula la organización interna de una empresa y se configuraron distintos usuarios con roles diferenciados (administrador, director, trabajador y externo).
+
+Se realizaron pruebas de acceso para comprobar que cada usuario tenía los permisos adecuados y que el sistema funcionaba correctamente sin comprometer la seguridad.
+
+**Aprendizaje:**  
+Esta tarea permitió aplicar conocimientos de servicios web, gestión de usuarios y control de accesos en un entorno empresarial simulado.
+
+<img src="IMG/cri2.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/cri1.png" alt="..." width="700" height="auto"> 
+
+## 14. Aprendizajes globales adquiridos
+
+### Técnicos
+
+*   Windows Server y Active Directory
+*   Permisos NTFS
+*   Servicios de impresión
+*   Desarrollo web
+*   Git y GitHub
+
+### Organizativos
+
+*   Planificación de proyectos
 *   Trabajo en equipo
-*   Pensamiento crítico
-*   Toma de decisiones justificadas
-*   Uso de Git y GitHub
+*   Gestión del tiempo
+
+### Profesionales
+
+*   Documentación técnica
+*   Visión empresarial
+*   Cumplimiento legal
+*   Defensa de propuestas técnicas
 
 ***
-
-## 12. Conclusiones finales
-
-El proyecto FoodLogístic S.A. demuestra:
-
-✅ Capacidad técnica  
-✅ Capacidad organizativa  
-✅ Cumplimiento legal  
-✅ Visión empresarial  
-✅ Preparación para el mundo laboral
-
-La solución propuesta es **completa, realista y bien documentada**, cumpliendo los objetivos del Proyecto Intermodular.
-
-

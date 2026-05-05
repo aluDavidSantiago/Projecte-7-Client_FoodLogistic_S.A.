@@ -2,7 +2,7 @@
 
 ## Empresa: *malambo*
 
-**Alumno:** Nombre Apellidos  
+**Alumno:** Santiago Hernandez  
 **Módulo:** Aplicaciones web  
 **Resultado de aprendizaje:** RA3 – Implantación y configuración de servicios web  
 **Herramientas utilizadas:** Local WP, WordPress, WP File Manager  
@@ -28,17 +28,6 @@ El sitio creado simula formar parte de la intranet interna de la empresa malambo
 
 Se procedió a la descarga de Local WP desde su página oficial y se realizó la instalación siguiendo el asistente por defecto. Una vez completada la instalación, se accedió a la interfaz principal desde la cual se gestionan los distintos proyectos WordPress locales.
 
-**Imagen 1 – Instalación de Local WP**
-
-```text
-Insertar aquí una captura del instalador de Local WP durante o al finalizar la instalación.
-```
-
-**Imagen 2 – Pantalla inicial de Local WP**
-
-```text
-Insertar aquí una captura de la pantalla principal de Local WP mostrando la lista de sitios.
-```
 
 ***
 
@@ -54,12 +43,6 @@ Este nombre permite identificar claramente tanto la empresa como el autor del pr
 
 Una vez finalizada la instalación, se accedió correctamente al panel de administración de WordPress mediante la ruta `/wp-admin`, verificando el correcto funcionamiento del sistema.
 
-**Imagen 3 – Escritorio de WordPress**
-
-```text
-Insertar aquí una captura del Dashboard principal de WordPress con sesión iniciada como administrador.
-```
-
 ### 3.2 Configuración básica del sitio
 
 Dentro del apartado **Ajustes → Generales** se configuraron los parámetros básicos del sitio:
@@ -73,21 +56,9 @@ Dentro del apartado **Ajustes → Generales** se configuraron los parámetros b�
 
 Estos ajustes permiten adaptar WordPress a un contexto de intranet corporativa.
 
-**Imagen 4 – Ajustes generales del sitio**
-
-```text
-Insertar aquí una captura donde se vean el título, la descripción y la zona horaria configurados.
-```
-
 ### 3.3 Configuración de enlaces permanentes
 
 Para mejorar la organización de las URLs y la compatibilidad con plugins, se configuraron los enlaces permanentes utilizando la opción **Nombre de la entrada**.
-
-**Imagen 5 – Enlaces permanentes**
-
-```text
-Insertar aquí una captura de la pantalla de enlaces permanentes con la opción “Post name” seleccionada.
-```
 
 ***
 
@@ -98,12 +69,6 @@ Con el objetivo de dotar a la intranet de capacidades de gestión documental, se
 ### 4.1 Instalación del plugin
 
 El plugin se instaló desde el repositorio oficial de WordPress y se activó correctamente, apareciendo una nueva opción en el menú lateral.
-
-**Imagen 6 – Plugin WP File Manager activo**
-
-```text
-Insertar aquí una captura del listado de plugins donde se vea WP File Manager activado.
-```
 
 ### 4.2 Acceso inicial y consideraciones de seguridad
 
@@ -131,12 +96,6 @@ Y dentro de ella la siguiente estructura documental:
 
 Esta estructura simula la organización documental interna de una empresa real.
 
-**Imagen 7 – Estructura de carpetas de la empresa**
-
-```text
-Insertar aquí una captura del gestor de archivos mostrando la jerarquía completa.
-```
-
 ***
 
 ## 6. Subida y clasificación de archivos
@@ -149,12 +108,6 @@ Se subieron distintos archivos de prueba, clasificándolos correctamente según 
 *   **Clients:** Archivo relacionado con un cliente ficticio.
 
 Algunos archivos incluyen el nombre y apellidos del alumno para reforzar la autoría.
-
-**Imagen 8 – Archivos clasificados por carpetas**
-
-```text
-Insertar aquí una captura donde se vean los archivos dentro de cada carpeta correspondiente.
-```
 
 ***
 
@@ -171,12 +124,6 @@ Para simular el funcionamiento real de una empresa, se crearon distintos usuario
 
 Cada rol tiene permisos diferentes acordes a su función.
 
-**Imagen 9 – Usuarios y roles**
-
-```text
-Insertar aquí una captura del listado de usuarios con sus roles visibles.
-```
-
 ***
 
 ## 8. Pruebas de permisos y acceso
@@ -189,12 +136,6 @@ Se realizaron pruebas iniciando sesión con cada tipo de usuario para comprobar 
 *   El administrador tiene control total del sistema.
 
 Estas pruebas demuestran una correcta separación de roles y un control básico de accesos.
-
-**Imagen 10 – Acceso limitado de un usuario externo**
-
-```text
-Insertar aquí una captura del panel de administración de un usuario subscriber sin acceso a herramientas avanzadas.
-```
 
 ***
 
@@ -210,6 +151,12 @@ Se comprobó que:
 El uso del gestor de archivos se considera seguro en este contexto al estar limitado a un entorno de desarrollo y con control de accesos adecuado.
 
 ***
+
+# IMGs
+
+<img src="IMG/cri2.png" alt="..." width="700" height="auto"> 
+
+<img src="IMG/cri1.png" alt="..." width="700" height="auto"> 
 
 ## 10. Conclusión
 
