@@ -1,74 +1,263 @@
-# projecte FoodLogistic
+<h1 align="center">Proyecto 7 - Proyecto FoodLogistic S.A.</h1>
 
-## Modernització de la logística alimentària a través de la tecnologia
+## Modernización de infraestructura IT para logística alimentaria  
 
-![Logo del projecte FoodLogistic](pics/FoodLogisticLogo.png)
+<p align="center">
+  <img src="pics/FoodLogisticLogo.png" width="200">
+</p>
 
-## Autor
+<p align="center">
+  <img src="https://img.shields.io/badge/Ciclo-SMX2-blue">
+  <img src="https://img.shields.io/badge/Proyecto-Intermodular-red">
+  <img src="https://img.shields.io/badge/Duracion-3%20semanas-orange">
+  <img src="https://img.shields.io/badge/Enfoque-Empresa-green">
+</p>
 
-Nom: [Escriu el teu nom aquí]
+---
 
-Formant grups de treball: [Escriu els noms dels membres del grup aquí]
+## 1. Introducción
 
-## Descripció del projecte
+Este proyecto simula un entorno profesional real donde una empresa tecnológica ofrece una solución completa a un cliente del sector logístico.
 
-"FoodLogístic S.A." és una empresa capdavantera en la distribució i logística alimentària a nivell nacional. Arran de l'obertura de noves rutes i la contractació de més personal, el seu volum de dades i les seves necessitats de comunicació s'han multiplicat.
+El objetivo es diseñar, implementar y justificar una infraestructura IT moderna integrando:
 
-La seva infraestructura actual s'ha quedat petita i pateixen per la seguretat i la continuïtat del negoci. Han contactat amb la vostra empresa informàtica perquè els ajudeu a modernitzar-se. Us demanen actuar en tres àrees clau:
+- Sistemas
+- Redes
+- Seguridad
+- Servicios cloud
+- Desarrollo web
+- Viabilidad económica
 
-Al Moodle teniu l'enllaç al document amb l'enunciat del projecte.
+---
 
-### Dades legals i corporatives de "FoodLogistic S.A."
+## 2. Contexto del cliente
 
-- **Raó social:** FoodLogistic S.A.
-- **NIF:** A08123456
-- **Adreça:**  Carrer de la Teixidora, núm. 13, 08302 Mataró Barcelona.
-- **Inscripció Registral:** Inscrita al Registre Mercantil de Barcelona, Tom 45678, Foli 120, Full B-567890, Inscripció 1a.
-- **Correu electrònic de contacte:** <info@foodlogistic.com>
-- **Telèfon:** +34 935 55 55 55
-- **Nombre de treballadors:** 35
-- **Facturació darrer any:** 25 milions d’euros.
+**FoodLogistic S.A.** es una empresa líder en distribución alimentaria que ha experimentado un crecimiento rápido.
 
-## Instruccions (per eliminar abans de lliurar el projecte)
+Esto ha provocado:
 
-Un cop teniu la vostra còpia d'aquest repositori, heu de seguir els passos següents:
+- Aumento de datos
+- Problemas de comunicación interna
+- Falta de escalabilidad
+- Riesgos de seguridad
 
-1. **Editar aquest fitxer README.md**
-    - Incloure el vostre nom i els noms dels membres del grup.
+La empresa necesita una **modernización completa** de su infraestructura tecnológica.
 
-1. **Organització del repositori:**
-   - Cada activitat ha d'estar dins d'una carpeta titulada `Tasca01`, `Tasca02`, etc.
-   - Dins de cada carpeta de tasca, heu d'incloure un arxiu `README.md` amb la descripció detallada de l'activitat realitzada.
+---
 
-```text
+## 3. Objetivo del proyecto
 
-projecte7/
-├── README.md (aquest arxiu)
-├── Tasca01/
-│   └── README.md
-├── Tasca02/
-│   └── README.md
-├── Tasca03/
-│   └── README.md
-└── ...
-```
+Diseñar una solución profesional que cubra:
 
-1. **Procediment de treball:**
-   - A mesura que completeu cada tasca, actualitzeu el vostre repositori local amb els canvis.
-   - Cada dia, abans de finalitzar la jornada, pugeu els canvis al  repositori remot a GitHub.
+- Alta disponibilidad de servicios internos
+- Migración a servicios cloud
+- Cumplimiento legal (LOPD / RGPD)
+- Mejora de presencia web
+- Optimización de costes y recursos
 
-1. **Esborrar secció instruccions:**
-    - Un cop hàgiu completat la creació de les carpetes i actualitzat el vostre README.md, ja podeu eliminar aquesta secció d'instruccions per a una millor presentació del vostre projecte.
+---
 
-1. **Logotips, imatges i empresa pròpia**
-    - El logotip de l'empresa client "FoodLogistic S.A." es troba a la carpeta `pics` i el que hauríeu d'utilitzar en el vostre projecte: web, proposta, etc.
-    - Pel que respecte la vostra empresa, podeu reaprofitar els logotips i noms que heu creat en projectes anteriors o crear-ne de nous. Recordeu que el nom de la vostra empresa i el logotip són elements importants per a la vostra identitat corporativa, així que trieu-los amb cura!
+## 4. Áreas de actuación
 
-## Guies Git i GitHub
+### 🛠 Infraestructura
 
-- [Introducció a Git i GitHub](https://github.com/SMX2n/IntroGitHub)
-- [Control de versions: Git](https://github.com/SMX2n/ControlVersions)
-- [Guia GitHub Classroom](https://github.com/SMX2n/guia-github-classroom)
+- Servidor de archivos (control de acceso, cuotas)
+- Servidor de impresión (alta disponibilidad)
+- Active Directory
 
-Santiago Hernandez
-Santiago Moreno 
+---
+
+### ☁️ Cloud y comunicación
+
+- Migración de correo a:
+  - Microsoft 365  
+  - Google Workspace  
+- Herramientas colaborativas:
+  - Calendarios
+  - Videollamadas
+  - Almacenamiento compartido
+
+---
+
+### 🔐 Seguridad y normativa
+
+- Cumplimiento LOPD-GDD y RGPD  
+- Formación a empleados (vídeos)  
+- Seguridad de datos  
+- Control de accesos  
+
+---
+
+### 🌐 Presencia web
+
+- Desarrollo de página corporativa  
+- Publicación con GitHub Pages  
+- Adaptación legal:
+  - Aviso legal  
+  - Política de privacidad  
+  - Cookies  
+
+---
+
+## 5. Tareas desarrolladas
+
+| Código | Descripción |
+|--------|------------|
+| T01 | Estudio del sector y competencia |
+| T02 | Desarrollo web corporativa |
+| T03 | Servidor de archivos |
+| T04 | Servidor de impresión |
+| T05 | Formación LOPD (vídeos) |
+| T06 | Adaptación legal web |
+| T07 | Migración al cloud |
+| T08 | Selección web final |
+| T09 | Planificación (Gantt) |
+| T10 | Presupuesto del proyecto |
+| T11 | Intranet con WordPress |
+| T12 | Creación de startup |
+
+---
+
+## 6. Infraestructura implementada
+
+### 6.1 Active Directory
+
+- Gestión de usuarios y grupos  
+- Organización por departamentos  
+- Políticas de seguridad (GPO)
+
+---
+
+### 6.2 Servidor de archivos
+
+- Recursos compartidos con permisos NTFS y SMB  
+- Control de acceso por grupos  
+- Cuotas de almacenamiento  
+- Filtrado de archivos (FSRM)  
+
+---
+
+### 6.3 Servidor de impresión
+
+- Printer Pooling  
+- Balanceo de carga  
+- Despliegue automático con GPO  
+
+---
+
+## 7. Solución Cloud
+
+Se analizan diferentes proveedores:
+
+| Servicio | Características |
+|----------|--------------|
+| Microsoft 365 | Integración total, alta seguridad |
+| Google Workspace | Facilidad de uso y colaboración |
+| Zoho / Otros | Bajo coste |
+
+✔ Se selecciona la opción más adecuada en base a:
+- coste  
+- seguridad  
+- escalabilidad  
+
+---
+
+## 8. Seguridad
+
+Medidas aplicadas:
+
+- Políticas de contraseñas
+- Control de accesos
+- Protección de datos personales
+- Uso seguro de dispositivos
+
+### Formación empleados
+
+Se desarrollan vídeos sobre:
+- uso de contraseñas
+- gestión de documentos
+- riesgos de USB
+- cumplimiento RGPD
+
+---
+
+## 9. Página web
+
+- Despliegue en GitHub Pages  
+- Diseño responsive  
+- Formulario de contacto  
+
+### Adaptación legal
+
+- Aviso legal  
+- Política de privacidad  
+- Cookies  
+- Consentimiento explícito  
+
+---
+
+## 10. Planificación
+
+- Uso de diagrama de Gantt  
+- Definición de:
+  - tareas
+  - tiempos
+  - dependencias
+
+---
+
+## 11. Presupuesto
+
+Se divide en:
+
+### Coste de implantación
+- configuración de servidores  
+- desarrollo web  
+- migración cloud  
+
+### Costes recurrentes
+- licencias SaaS  
+- hosting  
+- soporte técnico  
+
+---
+
+## 12. Productos finales
+
+| Código | Producto |
+|--------|--------|
+| P01 | Memoria técnica |
+| P02 | Página web |
+| P03 | Repositorio GitHub |
+
+---
+
+## 13. Datos del cliente
+
+- **Empresa:** FoodLogistic S.A.  
+- **Ubicación:** Mataró (Barcelona)  
+- **Empleados:** 35  
+- **Sector:** Logística alimentaria  
+
+---
+
+## 14. Autor
+
+**Santiago Hernández**  
+CFGM Sistemas Microinformáticos y Redes (SMX2)  
+Escola Pia Mataró  
+
+---
+
+## 15. Conclusión
+
+Este proyecto representa una simulación real de consultoría IT donde se aplican:
+
+- conocimientos técnicos  
+- toma de decisiones  
+- análisis de negocio  
+- trabajo en equipo  
+
+Permite evolucionar de un perfil técnico a un perfil profesional capaz de:
+
+👉 diseñar soluciones completas para empresas reales
